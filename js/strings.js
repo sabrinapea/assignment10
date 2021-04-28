@@ -41,6 +41,6 @@
 // alert(phrase.trim().toLowerCase());
 
 //STEP 10
-let oldString = 'the quick brown fox jumps over the lazy dog';
-let newString = (oldString.match(/^[A-Za-z]/));
-alert(oldString.replace(newString, newString.toString().toUpperCase()));
+// let oldString = 'the quick brown fox jumps over the lazy dog';
+// let newString = (oldString.match(/^[A-Za-z]/));
+// alert(oldString.replace(newString, newString.toString().toUpperCase()));
