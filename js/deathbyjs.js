@@ -25,7 +25,7 @@
 // function makeid(l) {
 // let text = "";
 // let dataList = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-// for(let i = 0; i < l; i++ ) { 
+// for (let i = 0; i < l; i++ ) { 
 //     text += dataList.charAt(Math.floor(Math.random() * dataList.length));
 // }
 // return text;
@@ -33,7 +33,7 @@
 // console.log(makeid(8)); 
 
 //STEP 5
-let userInput = prompt("Enter contry names seperated by commas");
+let userInput = prompt("Enter country names separated by commas:");
 function getLongest(inputString) {
     let countryNames = inputString.split(',');
     let longestName = countryNames[0];
