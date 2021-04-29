@@ -33,15 +33,15 @@
 // console.log(makeid(8)); 
 
 //STEP 5
-let userInput = prompt("Enter country names separated by commas:");
-function getLongest(inputString) {
-    let countryNames = inputString.split(',');
-    let longestName = countryNames[0];
-    for(let countryName of countryNames) {
-        if (countryName.length > longestName.length) {
-            longestName = countryName;
-        }
-    }
-    return longestName;
-}
-console.log(getLongest(userInput));
+// let userInput = prompt("Enter country names separated by commas:");
+// function getLongest(inputString) {
+//     let countryNames = inputString.split(',');
+//     let longestName = countryNames[0];
+//     for(let countryName of countryNames) {
+//         if (countryName.length > longestName.length) {
+//             longestName = countryName;
+//         }
+//     }
+//     return longestName;
+// }
+// console.log(getLongest(userInput));
